@@ -32,7 +32,7 @@ let arr = [
       "width: 200px; min-height: 200px; background-color: gray; border-width: 7px; border-radius: 10px; border-color: rgb(211, 182, 87);";
     basket_div.appendChild(bask_prime);
     // Строка корзина пуста
-    if (product <= 0) {
+    if (arr.length == 0) {
       let span_empty = document.createElement("span");
       span_empty.style.cssText =
         "display: flex; color: white; width: 100%; min-height: 50px; margin: 5px auto 5px auto; text-align: center; align-items: center; justify-content: center; font-size: 20px;";
